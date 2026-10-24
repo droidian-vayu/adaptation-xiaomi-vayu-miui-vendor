@@ -1,0 +1,38 @@
+Source: adaptation-xiaomi-vayu-miui-vendor
+Maintainer: daviddharma
+Section: metapackages
+Priority: optional
+Build-Depends: debhelper (>= 10),
+	       debhelper-compat (= 13),
+Standards-Version: 4.5.0.3
+
+Package: adaptation-xiaomi-vayu-miui-vendor
+Architecture: arm64
+Depends: ${misc:Depends},
+         adaptation-hybris-api30-phone,
+         adaptation-xiaomi-vayu-configs,
+	 linux-bootimage-4.14-190-xiaomi-vayu,
+	 linux-image-4.14-190-xiaomi-vayu,
+         inotify-tools,
+         vim,
+         neovim,
+         less,
+         htop,
+         git,
+         curl,
+         wget,
+         usbutils,
+         yubikey-luks,
+         man,
+         manpages,
+         wl-clipboard,
+Conflicts: adaptation-droidian-vayu,
+           adaptation-vayu-configs,
+Breaks: adaptation-droidian-vayu,
+        adaptation-vayu-configs,
+Description: Community adaptation for xiaomi vayu api30 with Miui vendor - metapackage
+
+Package: adaptation-xiaomi-vayu-miui-vendor-configs
+Architecture: arm64
+Depends: ${misc:Depends},
+Description: Droidian adaptation for Xiaomi Pocophone X3 Pro vayu api30 with Miui vendor - adaptation configurations

@@ -1,0 +1,13 @@
+/etc/apt/package-sideload-create.d
+/etc/systemd/system/multi-user.target.wants
+/var/lib/bluetooth
+/etc/systemd/system/graphical.target.wants
+/var/log/droidian-adaptation
+/usr/lib/systemd/system/ModemManager.service.d
+/etc/ofono/binder.d
+/usr/lib/droid-vendor-overlay/etc
+/usr/lib/droid-vendor-overlay/etc/init
+/usr/lib/droid-vendor-overlay/etc/init/hw
+/usr/lib/droid-vendor-overlay/etc/vintf
+/usr/lib/droid-vendor-overlay/etc/permissions/sku_nfc
+/var/lib/waydroid

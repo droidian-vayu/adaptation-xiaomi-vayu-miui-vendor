@@ -1,0 +1,9 @@
+#!/bin/sh
+ 
+#set -e
+ 
+MAIN_LOG_DIR="/var/log/droidian-adaptation-miui-vendor"
+
+ 
+
+exit 0

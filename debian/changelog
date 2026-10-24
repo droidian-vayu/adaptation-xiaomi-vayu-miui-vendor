@@ -1,0 +1,7 @@
+adaptation-xiaomi-vayu-miui-vendor (1) trixie; urgency=medium
+
+  * Create new package forked on : https://github.com/droidian-vayu/adaptation-xiaomi-vayu
+  * It is need on addition to adaptation-xiaomi-vayu for Droidian Vayu with Miui vendor (instead of with Droidian/Sailfish vendor)
+
+ -- DavidDharma <DavidDharma@disroot.org>  Sat, 24 Oct 2026 01:05:34 +0200
+
